@@ -18,6 +18,11 @@
 # If you don’t write return in function it'll return NONE
 # So, every function returns whether you write it or not.
 
+# def sachin(b):
+#     print("sachin")
+#     return b
+# s=sachin('sa')
+# print(s)
 
 # Syntax :
 # def fun_name ( par1 , par2, par3 ) : #Formal parameter
@@ -37,11 +42,34 @@
 # a=sk(2,2,1)
 
 
+
+# def vallue(a,b,c):
+#     if a==b and b==c and a==c:
+#         print(f"Vallue ara equal {a,b,c}")
+#     else:
+#         print(f"Valle are not equlas{a,b,c}")
+#     return 'ok'
+
+# a=vallue(10,1,10)
+# print(a)
+
+
+# def sum(a,b,c):
+#     k=a+b+c
+#     return f"Sum of vallue is :- {k}"
+# print(sum(10,10,10))
+
+
+
 # def sum_vallue(a,b,c):
 #     d=a+b+c
 #     print(f"Total Sum :-{d}")
 # a=sum_vallue(10,10,10)
 
+
+# def v(a=10,b=10):
+#     return a+b
+# print(v())    
 
 # def s(a,b,c):
 #     return a+b+cu
@@ -56,6 +84,12 @@
 #     return a+b
 # print(add(10,5))
 
+# def check_even_or_odd(number):
+#     if number % 2 == 0:
+#         return f"Even:-{number}"
+#     else:
+#         'odd'
+# print(check_even_or_odd(10))        
 
 
 # def check_even_or_odd(number):
@@ -77,7 +111,7 @@
 # print(check_even_or_odd(1))
 
 
-##fibonacci series
+#fibonacci series
 # def fibonacci(n):
 #     a=0
 #     b=1
@@ -85,9 +119,21 @@
 #         c=a+b
 #         a=b
 #         b=c
-#         print(c)
-        
+#         print(c)    
 # print(fibonacci(10))
+
+
+# def fibonacci(n):
+#     a=0
+#     b=1
+#     for i in range(2,n):
+#         c=a+b
+#         a=b
+#         b=c
+#         print(c)
+#         #return 'ok'
+# print(fibonacci(10))
+
 
 # for i in range(1,10):
 #     if i % 2 == 0:
