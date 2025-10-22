@@ -32,3 +32,70 @@
 #List items are indexed and you can access them by referring to the index number:
 # thislist = ["apple", "banana", "cherry"]
 # print(thislist[0])
+
+
+list1=[]
+
+# print(type[list1])
+l2=[10,'ankit',True,10.6,'ankush',10]
+
+#slice methods
+
+# print(l2[2]) #True
+# print(l2[1:3]) #['ankit', True]
+
+#count
+# print(l2.count(10))
+
+#index
+#print(l2.index(10.6)) #3 check index postion 
+
+#insert 
+# l2.insert(2,'Sachin')
+# print(l2)
+
+#pop # delete element 
+
+# l2.pop(4)
+# print(l2) #pop delete a  vallue by using index ,defoult delete last element
+
+#extend
+# l4=['sachin',10]
+# l2.extend(l4) #add new list another list
+# print(l2) 
+
+#copy
+# l3=l2.copy()
+# print(l3)
+
+# fruits = ['apple', 'banana']
+# fruits.append('mango')
+# print(fruits)
+
+#sort
+l3=[12,23,43,45,56,78976,2,31]
+# l3.sort()#defult ascending
+# l3.sort(reverse=True) #descending manual
+# print(l3)
+
+#reverse 
+# l3.reverse()
+# print(l3)#it will reverse not sort
+
+
+# nested list
+# l3=[12,23,43,45,56,78976,2,31,['Sachin',['balaji']]]
+# print(l3)
+
+#list compherantion 
+
+# l4=['Sachin','balaji','avi','ajit']
+# a=[word for word in l4 if word.startswith("a")]
+# print(a)
+
+#list unpacking
+
+l5=['ankush','amkit']
+l6,l7=l5 #unpack means broken 
+print(l6)
+print(l7)

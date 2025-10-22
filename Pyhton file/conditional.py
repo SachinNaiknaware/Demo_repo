@@ -201,3 +201,12 @@
 #     # code to execute if another_condition is true
 # else:
 #     # code to execute if none of the above conditions are true
+
+
+##### conditionals
+
+#conditionals expressions involing keyword such as if,elif and else 
+
+### the ternary operators 
+n=5
+"Greter than 2" if n > 2 else "smaller then or equal 2" 

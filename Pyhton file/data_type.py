@@ -104,7 +104,7 @@
                #allow duplicates
                #immutable
                #orderd  means we access them by index
-               #can store any type of data like str,int, float
+               #we can store any type of data like str,int, float
                
 #t=(1,2)
 #print(type(t))   
@@ -221,4 +221,28 @@
 # #print(a ** b)
 # p=math.pow(a,b)
 # print(p)
+
+# p=None
+# print(p)
+
+# X=None
+# if X is None:
+#         print('Not a surprize')
+
+# type converting type between datatype
+# a= '123423'
+# b=int(a)
+# print(type(b))
+
+# a='23.4'
+# B=float(a)
+# print(B)
+
+# var='Hellow Sachin'
+# print(set(var))
+# print(list(var))
+# print(tuple(var))
+
+# normal= 'foo\nbar'
+# print(normal)
 
