@@ -144,3 +144,18 @@
 #     else:
 #         print('Odd :-',i)
 
+# def process(n):
+#     y1 = n-8
+#     y2 = n+8
+#     y3 = n*8
+#     y4 = n/8
+#     y5 = n%8
+#     y6 = n//8
+#     print(f'If you make the above operations with {n}, the results will be {y1}, {y2}, {y3}, {y4}, {y5}, {y6}.')
+#     return y1, y2, y3, y4, y5, y6
+# print(process(5))
+
+# def hell():
+#     return 'Hi Sachin Naiknaware'
+
+# print(hell())

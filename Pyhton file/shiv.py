@@ -31,3 +31,44 @@ for i in s:
 
 # print(rev_string)
     
+    
+#1.#Sort Tuples by Last Element
+
+# input - [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+# output[(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
+
+# l1= [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+#l2=list(l1)
+# #print(l1)
+
+# print(l1.sort)
+# input_list = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+# sorted_list = sorted(input_list, key=lambda x: x[-1])
+# print(sorted_list)
+
+
+
+
+
+
+
+
+#Find the list of words that are longer than n from a given list of words
+#input = The quick brown fox jumps over the lazy dog
+ 
+# n= 3
+# output = ['quick', 'brown', 'jumps', 'over', 'lazy']
+ 
+# output =[]
+# i1=[]
+# def s(i1):
+#     for i in i1:
+#         if i.len >= 3:
+#             output.append(i)
+#         else :
+#             pass
+        
+# print(s(input("enter input :- ")))
+    
+

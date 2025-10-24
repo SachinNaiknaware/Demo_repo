@@ -34,10 +34,10 @@
 # print(thislist[0])
 
 
-list1=[]
+#list1=[]
 
 # print(type[list1])
-l2=[10,'ankit',True,10.6,'ankush',10]
+#l2=[10,'ankit',True,10.6,'ankush',10]
 
 #slice methods
 
@@ -73,7 +73,7 @@ l2=[10,'ankit',True,10.6,'ankush',10]
 # print(fruits)
 
 #sort
-l3=[12,23,43,45,56,78976,2,31]
+#l3=[12,23,43,45,56,78976,2,31]
 # l3.sort()#defult ascending
 # l3.sort(reverse=True) #descending manual
 # print(l3)
@@ -95,7 +95,47 @@ l3=[12,23,43,45,56,78976,2,31]
 
 #list unpacking
 
-l5=['ankush','amkit']
-l6,l7=l5 #unpack means broken 
-print(l6)
-print(l7)
+# l5=['ankush','amkit']
+# l6,l7=l5 #unpack means broken 
+# print(l6)
+# print(l7)
+
+
+# Starting list
+fruits = ['apple', 'banana', 'cherry']
+
+# 1. append()
+fruits.append('orange')  # ['apple', 'banana', 'cherry', 'orange']
+
+# 2. clear()
+fruits.clear()  # []
+
+# Reset list
+fruits = ['apple', 'banana', 'cherry']
+
+# 3. copy()
+copy_fruits = fruits.copy()  # ['apple', 'banana', 'cherry']
+
+# 4. count()
+fruits.count('banana')  # 1
+
+# 5. extend()
+fruits.extend(['date', 'fig'])  # ['apple', 'banana', 'cherry', 'date', 'fig']
+
+# 6. index()
+fruits.index('cherry')  # 2
+
+# 7. insert()
+fruits.insert(1, 'blueberry')  # ['apple', 'blueberry', 'banana', 'cherry', 'date', 'fig']
+
+# 8. pop()
+fruits.pop()  # removes 'fig'
+
+# 9. remove()
+fruits.remove('banana')  # removes first occurrence of 'banana'
+
+# 10. reverse()
+fruits.reverse()  # reverses the list
+
+# 11. sort()
+fruits.sort()  # sorts alphabetically

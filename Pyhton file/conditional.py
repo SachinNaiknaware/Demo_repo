@@ -100,6 +100,11 @@
 # discamount = amount - discount
 # print("Pay after Discount",discamount)
 
+
+
+
+
+
 #11. check the whether year is leap year or not
 
 # year=int(input("Enter a year "))

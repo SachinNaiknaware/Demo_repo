@@ -214,12 +214,23 @@
 #         break #break statement will stop the loop when i equal 5
 #     print(i)
 
+
+# for i in range(1,10):
+#     if i == 6:
+#         break
+#     print(i)
+
 # count=1
 # while count<10:
 #     print(count)
 #     count+=1 #increment by 1
 
 
+# count=0
+# while count<10:
+#     print(count)
+#     count+=1
+    
 ###coninue use ti skip curent iteration of a loop and move to next iteration
 
 # for i in range(1,10):
@@ -227,12 +238,24 @@
 #         continue #here compared to 3 and skiped 3 and runed complate code
 #     print(i)
 
+# for i in range(1,10):
+#     if i == 5:
+#         continue
+#     print(i)
+
+
 ### Pass Statement
 #The pass statement does nothing. It's used as a placeholder where a statement is syntactically required, but you don't want to execute any code.
 
 # for i in range(1,10):
 #     if i ==2:
 #         pass #do nothing when i equal 2
+#     print(i)
+
+
+# for i in range(1,10):
+#     if i == 2:
+#         continue
 #     print(i)
 
 # Summary of Control Statements:
