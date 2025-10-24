@@ -105,37 +105,38 @@
 fruits = ['apple', 'banana', 'cherry']
 
 # 1. append()
-fruits.append('orange')  # ['apple', 'banana', 'cherry', 'orange']
-
+#p=fruits.append('orange') # ['apple', 'banana', 'cherry', 'orange']
+#print(p)
 # 2. clear()
-fruits.clear()  # []
+# fruits.clear()  # []
+# print(fruits)
 
 # Reset list
-fruits = ['apple', 'banana', 'cherry']
+#fruits = ['apple', 'banana', 'cherry']
 
 # 3. copy()
-copy_fruits = fruits.copy()  # ['apple', 'banana', 'cherry']
+#copy_fruits = fruits.copy()  # ['apple', 'banana', 'cherry']
 
 # 4. count()
-fruits.count('banana')  # 1
+#fruits.count('banana')  # 1
 
 # 5. extend()
-fruits.extend(['date', 'fig'])  # ['apple', 'banana', 'cherry', 'date', 'fig']
+#fruits.extend(['date', 'fig'])  # ['apple', 'banana', 'cherry', 'date', 'fig']
 
 # 6. index()
-fruits.index('cherry')  # 2
+#fruits.index('cherry')  # 2
 
 # 7. insert()
-fruits.insert(1, 'blueberry')  # ['apple', 'blueberry', 'banana', 'cherry', 'date', 'fig']
+#fruits.insert(1, 'blueberry')  # ['apple', 'blueberry', 'banana', 'cherry', 'date', 'fig']
 
 # 8. pop()
-fruits.pop()  # removes 'fig'
+#fruits.pop()  # removes 'fig'
 
 # 9. remove()
-fruits.remove('banana')  # removes first occurrence of 'banana'
+#fruits.remove('banana')  # removes first occurrence of 'banana'
 
 # 10. reverse()
-fruits.reverse()  # reverses the list
+#fruits.reverse()  # reverses the list
 
 # 11. sort()
-fruits.sort()  # sorts alphabetically
+#fruits.sort()  # sorts alphabetically

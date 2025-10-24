@@ -1,12 +1,12 @@
 # it will take string as input from user it will print only owels
 
-s = str(input("User Input: "))
+# s = str(input("User Input: "))
 
-for i in s:
-    if i.upper() in ['A', 'E', 'I', 'O', 'U']:
-        print(f"{i} is a vowel")
-    else:
-        print(f"{i} is not a vowel")
+# for i in s:
+#     if i.upper() in ['A', 'E', 'I', 'O', 'U']:
+#         print(f"{i} is a vowel")
+#     else:
+#         print(f"{i} is not a vowel")
 
 
 #write a program which will print only squre of odd number from 10 to 20
@@ -47,28 +47,24 @@ for i in s:
 # sorted_list = sorted(input_list, key=lambda x: x[-1])
 # print(sorted_list)
 
-
-
-
-
-
-
-
 #Find the list of words that are longer than n from a given list of words
 #input = The quick brown fox jumps over the lazy dog
  
 # n= 3
-# output = ['quick', 'brown', 'jumps', 'over', 'lazy']
- 
-# output =[]
-# i1=[]
-# def s(i1):
-#     for i in i1:
-#         if i.len >= 3:
-#             output.append(i)
-#         else :
-#             pass
+# output = ['quick', 'brown', 'jumps', 'over', 'lazy'] 
         
 # print(s(input("enter input :- ")))
-    
+# list_words="The quick brown fox jumps over the lazy dog"
+# words= list_words.split()
+##print(words)
+# output=[]
+# for word in words:
+#     if len(word) > n:
+#         output.append(word)
+#     else:
+#         pass
+# print(output)
+
+
+
 
