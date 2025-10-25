@@ -314,3 +314,93 @@
 #     print(f"{num} is a prime number.")
 # else:
 #     print(f"{num} is not a prime number.")
+
+
+##22 Implementing varivle lengh arguments in Python
+# def average(*t):
+#     avg=sum(t)/len(t)
+#     return avg
+# result1 = average(32,5,4,4,35,6,63,5)
+# print(result1)
+
+# def avg(*k): #(*k) this collect all the argument into tuple
+#      avg_all=sum(k)/len(k)
+#     return avg_all
+# new=avg(10,10,10)
+# print(new)
+
+## ** kwargs for dictionary if variable Lengh
+# def avg_with_lengh(**kwargs):
+#     values=list(kwargs.values())
+#     avg = sum(values) /len(values)
+#     return avg
+# result1= avg_with_lengh(num1=10,num2=20,num3=30)
+# #result2= avg_with_lengh(value=10,value=21,value=30)
+# print(result1)
+# #print(result2)
+
+## 23 Creation instance menber variables in python
+
+# class Test():
+#     def __init__(self):
+#         # 1st instance variable inside init function
+#         self.a=5
+#     def f1(self):
+#         # 2nd insance variable inside function f1
+#         self.b=10
+# t1=Test()
+# t2=Test()
+# t1.f1()
+# #3rd instance variable 
+# t1.c=15
+# print(t1.__dict__)
+# print(t2.__dict__)
+
+
+##24 Addition using Lambda functions 
+# Lambda function to add two variables
+# f = lambda a,b : a+b 
+# r=f(3,7)
+# print(r)
+#single
+# print((lambda a,b : a+b) (3,7))
+#single line
+# x=(lambda a,b,c : a+b+c)(3,1,6)
+# print(x)
+
+##25 Finding factorial using lambda funciton
+
+# f=(lambda n :1 if n==0 else n*f(n-1))
+
+# print(f(5))
+
+# num=int(input("Enter a Number:-"))
+# factorial = 1
+# if num < 0:
+#     print("Sorry factorial does not exits for negative numbers")
+# elif num == 0:
+#     print("Factorial is 0 to 1")
+# else:
+#     for i in range(1,num +1):
+#         factorial = factorial * i
+#     print(f"Factorial of {num} is ",factorial)
+    
+## 26 list compressoin (to create a list in single line)
+#list of even numbers
+# l1=[2*e for e in range(1,10)]
+# print(l1)
+'''
+List comprehension is a concise and expressive way to create 
+lists in pyhton it provides a more compact syntax for generation 
+lists compared to using tradaitional loops.
+'''
+
+# to create a list of even numberrs from given list
+# list1=[23,56,65,22,62,32,65,76,33,99]
+# l3=[e for e in list1 if e%2==0]
+# print(l3)
+
+###27 
+# what is the use of split and join function of str?
+s='what is right in your mind is right in your world'
+\
