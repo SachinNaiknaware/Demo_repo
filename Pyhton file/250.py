@@ -402,5 +402,142 @@ lists compared to using tradaitional loops.
 
 ###27 
 # what is the use of split and join function of str?
-s='what is right in your mind is right in your world'
-\
+# s='what is right in your mind is right in your world'
+# #split - to convert string into of string
+# s1=s.split(" ") #split string into list of word
+# print(s1)
+# s1=s1[::-1] # reverse the list of words
+# print(s1)
+# print(" ".join(s1)) # join the reversed list back into a string
+
+
+# str1='Hello Mr Sachin Naiknaware'
+# s1=str1.split(" ")
+# print(s1)
+
+# s1=s1[::-1]
+# print(s1)
+
+# print(" ".join(s1))
+
+##28 Global and Local variable
+
+# x=10 # global variable
+# def f1():
+#     global x
+#     x=15 #globale variable updated 
+#     y= 10
+#     print("x=%d y=%d"%(x,y))
+# f1()
+# print(x)
+
+
+
+
+#tr1="Hello world"
+# count=0
+# for i in str1:
+#     if i in 'o':
+#         count+=1
+#     else:
+#         pass
+    
+# print(count)
+
+#print(str1.count('o'))
+# count=0
+# i=0
+# while i< len(str1):
+#     if str1[i] == 'o':
+#         count+=1
+#     i+=1
+# print(count)
+
+
+#print(str1.count('o'))
+# count=0
+# for i in str1:
+#     if i == 'o':
+#         count+=1
+# print(count)
+
+
+## 29 Global function 
+# global function returns dictionary
+#you can use the globals() function to access or modify global variables
+#within a function variable
+# x=5
+# def fun():
+#     x=10
+#     d=globals()
+#     print("local x=%d global x=%d"%(x,d['x']))
+# print(fun())
+
+
+## 30 Types conversion basics
+
+# x=int('123')
+# a=float('1232.2')
+# b=complex('3+9j')
+# c=str(12)
+# d=bool('True')
+# e=bin(25)
+# f=oct(25)
+# g=hex(25)
+# h=ord('A')
+# i=chr(98)
+# print(x,a,b,c,d,e,f,g,h,i,sep="\n")
+
+## 31 Type conversion
+# x=5
+# print(type(x))
+# s1='123'
+# print(type(s1))
+# print(str(x) + s1)
+# print(x + int(s1))
+
+
+## 32 What is Python decorator?
+# Decorator is Powerfull tool that allow you to modify or
+#enhance the behaiver of function or methods without changing their actual code
+
+# Decoratoe is function that takes another function as input and return 
+#new function with added functionallity
+
+# def welcome(fx):
+#     def mfx(*t,**d):
+#         print("Before hello function")
+#         fx(*t,**d) # *args to take arguments as tuple , **kwards to take argument
+#         print("Thanks for using the function")
+#     return mfx
+
+# #decorator function arguments
+# @welcome
+# def add(a,b):
+#     print(a+b)
+# @welcome
+# def hello():
+#     print('Hello !')
+# add(10,10)
+# hello()
+
+
+
+### decorators is function that takes another function as input and some extra behaiver to it 
+### and returns a new fuction  - without changing the original function code .
+
+#class  Decorator 
+
+# class Calculator:
+#     def __init__(self,func):
+#         self.funciton = func
+        
+#     def __call__(self,*t,**d):
+#         result=self.function(*t,**d)
+#         return result**2
+    
+# @Calculator
+# def add(a,b):
+#     return a+b
+    
+# add(10,10)
