@@ -541,3 +541,113 @@ lists compared to using tradaitional loops.
 #     return a+b
     
 # add(10,10)
+
+
+
+#1) write a functions which does multiple numbers addition and retunn ans 
+
+#1. Method one
+# def addition(a,b,c,d,e):
+#     print(a+b+c+d+e)
+# print(addition(12,2,23,323,3))
+
+#2. 2 Method
+# def addition(*args):
+#     return sum(args) 
+# print(addition(32,333,3,33,3,33,3,3)) 
+
+
+
+#write a program which finds area of rectange and circle  
+
+# Area of Rectangle	Area = l × w	l =  length
+# w  = width
+# Area of Square	Area  = a2	a = sides of the square
+# Area of a Triangle	Area = 1/2 b×h	b = base
+# h = height
+# Area of a Circle	Area = πr2	r = radius of the circle
+
+# def area_reactangle(lenth,width):
+#     return lenth*width
+# print(area_reactangle(3,3))
+
+# def area_cicle(redius):
+#     PI=3.149
+#     return PI * redius ** 2
+
+# print(area_cicle(10))
+
+
+# def area(shape, height=0, width=0, radius=0):
+#     PI = 3.14159
+#     if shape == 'rectangle':
+#         area_rectangle = height * width
+#         print(f"Area of rectangle is: {area_rectangle}")
+#     elif shape == 'circle':
+#         area_circle = PI * radius ** 2
+#         print(f"Area of circle is: {area_circle:.2f}")
+#     else:
+#         print("Invalid shape. Please choose 'rectangle' or 'circle'.")
+
+# area('rectangle', height=10, width=10)
+# area('circle', radius=23)
+
+
+
+# def area(shape):
+#     pi=3.14159
+#     if shape == 'rectangle':
+#         height=eval(input("Enter hight"))
+#         width=eval(input("Enter width"))
+#         area_reactangle = height * width
+#         return area_reactangle
+#     elif shape == 'circle':
+#         redius=eval(input("Enter a redius "))
+#         area_circle = pi * redius ** 2
+#         return area_circle
+#     else:
+#         return "Envalid shape"
+# t1=area('circle')   
+# print(t1)     
+
+
+
+#Find all number divisible by 8 and 14 in under 
+
+# def divisible_by_8_14(limit):
+#     l1=[]
+#     for i in range(1,limit):
+#         if i % 8 == 0 and i % 14 == 0:
+#             l1.append(i)
+#     return l1
+# print(divisible_by_8_14(100))            
+
+# import statistics 
+
+# l=[3,4,5,5,4,24,45]
+# print(statistics.geometric_mean(l))
+
+
+#ask user to enter an number and you write program find whether that number float or integer or positive or nigative or even or odd
+# user=input("Enter a Input :-")
+
+# for i in user:
+#     print(type(i))
+#     convert=int(i)
+#     if convert % 2 == 0:
+#         print('Number is even {i}')
+#     else:
+#         print("Number is odd {} ")
+
+
+
+# def divisible_by_6_and_14(num):
+#     output=[]
+#     for i in range(1, num):
+#         if i % 6 == 0 and i % 14 == 0:
+#             output.append(i)
+
+#     return output
+# a = divisible_by_6_and_14(1212)
+# print(a)
+

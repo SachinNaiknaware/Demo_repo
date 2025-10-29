@@ -212,6 +212,111 @@
 
 #conditionals expressions involing keyword such as if,elif and else 
 
-### the ternary operators 
-n=5
-"Greter than 2" if n > 2 else "smaller then or equal 2" 
+## these are the technique in any programming language which return  ans / output 
+
+# marks = int(input("Enter marks: "))
+
+# if marks > 90 and marks <= 100:
+#     print("Outstanding (90–100)")
+# elif marks >= 80 and marks <= 90:
+#     print("Good (80–90)")
+# elif marks >= 35 and marks < 80:
+#     print("Pass")
+# elif marks >= 0 and marks < 35:
+#     print("Fail")
+# else:
+#     print("Please enter marks between 0 and 100")
+
+
+#write a program which user to enter  there capital city  print state name of the name
+# city = input("Enter city name: ")
+
+# if city == "Hyderabad":
+#     print("TG")  # Telangana
+# elif city == "Amaravati":
+#     print("AP")  # Andhra Pradesh
+# elif city == "Patna":
+#     print("Bihar")
+# elif city == "Lucknow":
+#     print("UP")  # Uttar Pradesh
+# elif city == "Jaipur":
+#     print("Rajasthan")
+# elif city == "Chennai":
+#     print("Tamil Nadu")
+# elif city == "Thiruvananthapuram":
+#     print("Kerala")
+# elif city == "Mumbai":
+#     print("Maharashtra")
+# elif city == "Bhopal":
+#     print("Madhya Pradesh")
+# elif city == "Bengaluru":
+#     print("Karnataka")
+# elif city == "Raipur":
+#     print("Chhattisgarh")
+# elif city == "Ranchi":
+#     print("Jharkhand")
+# elif city == "Dispur":
+#     print("Assam")
+# elif city == "Itanagar":
+#     print("Arunachal Pradesh")
+# elif city == "Panaji":
+#     print("Goa")
+# elif city == "Gandhinagar":
+#     print("Gujarat")
+# elif city == "Chandigarh":
+#     print("Punjab/Haryana")
+# elif city == "Shimla":
+#     print("Himachal Pradesh")
+# elif city == "Imphal":
+#     print("Manipur")
+# elif city == "Shillong":
+#     print("Meghalaya")
+# elif city == "Aizawl":
+#     print("Mizoram")
+# elif city == "Kohima":
+#     print("Nagaland")
+# elif city == "Bhubaneswar":
+#     print("Odisha")
+# elif city == "Gangtok":
+#     print("Sikkim")
+# elif city == "Agartala":
+#     print("Tripura")
+# elif city == "Dehradun":
+#     print("Uttarakhand")
+# elif city == "Kolkata":
+#     print("West Bengal")
+# else:
+#     print("City not recognized or spelling may be incorrect.")
+
+
+#write a program where you ask ask to user to enter a number  check is number is even or odd  and print.
+
+# num=int(input("Enter a Number:-"))
+# if num % 2 == 0:
+#     print(f"Number is even :- {num}")
+# else:
+#     print(f"Number is Odd :- {num}")
+    
+    
+    
+# i=3  
+# if i % 2 == 0:
+#     print('Even')
+# else:
+#     print('Odd')
+
+
+#find area of rectangle and area of circle
+# def area_rectangle(heaghit, width):
+#     output = heaghit * width
+#     return output
+# print(area_rectangle(10,10))
+
+# def area_circle(reduce):
+#     pi= 3.14159
+#     output = pi * reduce ** 2
+#     return output
+# a=area_circle(10)
+# print(a)
+
+
