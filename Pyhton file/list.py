@@ -28,10 +28,11 @@
 # Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
-#Access Items
-#List items are indexed and you can access them by referring to the index number:
+# Access Items
+# List items are indexed and you can access them by referring to the index number:
 # thislist = ["apple", "banana", "cherry"]
 # print(thislist[0])
+
 
 
 #list1=[]
@@ -63,6 +64,7 @@
 # l4=['sachin',10]
 # l2.extend(l4) #add new list another list
 # print(l2) 
+# print(l2)
 
 #copy
 # l3=l2.copy()
@@ -72,10 +74,10 @@
 # fruits.append('mango')
 # print(fruits)
 
-#sort
-#l3=[12,23,43,45,56,78976,2,31]
+
+# l3=[12,23,43,45,56,78976,2,31]
 # l3.sort()#defult ascending
-# l3.sort(reverse=True) #descending manual
+# #l3.sort(reverse=True) #descending manual
 # print(l3)
 
 #reverse 
@@ -96,13 +98,13 @@
 #list unpacking
 
 # l5=['ankush','amkit']
-# l6,l7=l5 #unpack means broken 
+# l6,l7=l5    #unpack means broken   unpack means one list broken into single word word
 # print(l6)
 # print(l7)
 
 
 # Starting list
-fruits = ['apple', 'banana', 'cherry']
+#fruits = ['apple', 'banana', 'cherry']
 
 # 1. append()
 #p=fruits.append('orange') # ['apple', 'banana', 'cherry', 'orange']
@@ -140,3 +142,27 @@ fruits = ['apple', 'banana', 'cherry']
 
 # 11. sort()
 #fruits.sort()  # sorts alphabetically
+
+
+
+
+###Accessing list values
+
+lst=[1,2,3,4,5,6,7,8]
+# print([4]) 5
+# print(lst[-1]) 8
+# print(lst[-2]) 7
+# print(lst[-5]) 4
+# print(lst[1:])  print from start
+# print(lst[::-1])  print from last
+#print(lst[:3]) print start to list index 3 till
+#print(lst[::2]) pritn it steping 2 and 2
+# print(lst[-1:0:-1]) print from last to now
+# print(lst[5:8])
+
+# check list is empty
+# ls=[]
+# if not ls:
+#     print("List is empty")
+
+

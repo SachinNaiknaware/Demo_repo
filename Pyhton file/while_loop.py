@@ -53,3 +53,21 @@
 # # Hypothesis Testing
 # t_stat, p_val = stats.ttest_1samp(data, 50)
 # print("T-Statistic:", t_stat, "P-Value:", p_val)
+
+
+### while 
+
+# while is loop will cause loop statement to the executed unil the loop condition is fasley
+# i=0
+# while i <10:
+#     i = i+2
+    
+# print(i)
+
+
+
+# if the condition is alway true  the loop will run forewer 
+
+# while True:
+#     print("Infinitr loop")
+
