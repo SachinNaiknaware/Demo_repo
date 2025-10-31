@@ -159,3 +159,42 @@
 #     return 'Hi Sachin Naiknaware'
 
 # print(hell())
+
+
+## parameter            details
+# arg1 .... argn        regular argument
+# *args                 unnamed positional argument
+# kw1 ......kwn         keyword only arguments
+# kwards                the rest of keywords
+
+#function in python provide orgnized, reusable and modular code to perform set of specific actions 
+
+# def sachin():
+#     print('My name is sachin')
+# print(sachin())
+
+#give defoult value to that  funciton argument
+# def greet(greeting='Welcome to out home'):
+#     return greeting
+# print(greet())
+
+
+
+#defining a function  with an arbitrary number of arguments
+
+# def func(*args):
+#     # args will be a tuple containing all value that are passed in
+#     for i in args:
+#         print(i)
+    
+# print(func(1,2,3,4,5))     
+
+## arbitrary number of keyword arguments 
+
+# def func(**kwards):
+#     #kwargs will be a dictionary containing a names as key  and value as value
+#     for name, value in kwards.items():
+#         print(name,value)
+# print(func(value1=1,value2=2,values3=3))
+
+    

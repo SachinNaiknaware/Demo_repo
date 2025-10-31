@@ -148,7 +148,7 @@
 
 ###Accessing list values
 
-lst=[1,2,3,4,5,6,7,8]
+# lst=[1,2,3,4,5,6,7,8]
 # print([4]) 5
 # print(lst[-1]) 8
 # print(lst[-2]) 7
@@ -165,4 +165,37 @@ lst=[1,2,3,4,5,6,7,8]
 # if not ls:
 #     print("List is empty")
 
+
+## concatenate and Merge lists
+# list1=[3,4,4,5]
+# list2=[6,7,8]
+
+# merged = list1 + list2
+# print(merged) 
+
+# zip returns a list of tuples 
+# alist=['a','b','c']
+# blist=['1','2','3']
+# for a,b in zip(alist , blist):
+#     print(a,b)
+
+#remove duplicates from list
+# names = ["aixk", "duke", "edik", "tofp", "duke"]
+# print(list(set(names)))
+
+
+#accessing values in nested list
+# alist = [[[1,2],[3,4]], [[5,6,7],[8,9,10], [12, 13, 14]]]
+# print(alist)
+# print(alist[0][0][1])
+# print(alist[1][1][2])
+# for row in alist:  
+#     for col in row:
+#         print(col)
+
+## list comprehensions
+# list comprehensions  creat a new list by applying an expresion to each elements of an iterable the most basic
+
+# squares = [x * x for x in (1, 2, 3, 4)]
+# print(squares)
 
