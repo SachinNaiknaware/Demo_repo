@@ -71,3 +71,13 @@
 # while True:
 #     print("Infinitr loop")
 
+
+## while loop are fundamentatls for control flow ,and logic building
+# a while loop runs as long conndition is true
+
+# count=0
+# while count  < 12:
+#     print("Count is :-", count)
+#     count +=1 
+
+#series based question

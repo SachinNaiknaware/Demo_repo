@@ -22,4 +22,26 @@
 
 #create a lambda function which take tuple numric string and retuns list of number from string 
 
+#basic lambda function 
+# greet_me = lambda : "Hello"
+# print(greet_me())
+
+
+# lambda can take argument 
+
+# strip_and_uper_case = lambda a : a.strip().upper()
+# print(strip_and_uper_case("Hellolgkfhjkj"))
+
+
+# lambda are use for short function that are convenient to define at the point where they are called
+# sorted_list = sorted(['foo', 'bar', 'baz'], key=lambda a: a.strip().upper())
+# print(sorted_list)
+
+# def greet(msg):
+#     return msg
+
+# print(greet("Hello Modi"))
+# greet_lm = lambda x: greet(x)
+# print(greet_lm("Hello Modi"))
+
 

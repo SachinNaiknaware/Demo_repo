@@ -199,3 +199,110 @@
 # squares = [x * x for x in (1, 2, 3, 4)]
 # print(squares)
 
+#empty list
+# ls= []
+
+# b= [1,2,3,'Hello',3.3,True]
+# c=list(range(5))
+# print(c)
+
+#2  access elements
+
+#my_list = [10,20,30,40,50]
+
+#first element
+#print(my_list[0])
+#slice from index 1 up to (but not including 4)
+#print(my_list[1:4])
+# reversed list using slicing
+#print(my_list[::-1])
+
+## 3 modify elements
+# my_list[0]=20
+# print(my_list) #change the elements at index 1 (sexond element) from 10 = 20
+
+## 4 add elements
+# my_list.append(60) # add at the end
+# m = my_list
+# print(m)
+
+# my_list.insert(2,55)
+# print(my_list)  #add at index 2
+ 
+ ### 4 add multiple at the end
+#  my_list.extend([70,80,90])
+# my_list.extend([70, 80, 90])
+# print(my_list)
+
+
+## 5 Remove elements
+#my_list = [10, 200, 300, 400, 50]
+#my_list.remove(200) # remove value
+#my_list.pop() remove last element
+#my_list.pop(1) remove by  index
+#del my_list[1] delete by index
+# my_list.clear() remove all
+
+#rint(my_list)
+
+
+### 6 search element / check
+# nums= [10,20,30,40]
+#print(20 in nums) True
+# a=nums.count(20) count 20 how many times
+# d=nums.index(30)  Inddex number of 30
+
+# print(d)
+
+
+
+#### 7 sort & reverse 
+
+#num=[3, 1, 4, 2]
+#num.sort() sort ascending in place
+#num.sort(reverse=True)  sort reverse in place
+#num.reverse()  just normal reverse 
+#new_list =sorted(num)#return a new sorted list
+
+#print(new_list)  
+
+
+######  8  Looping
+
+# for item in num:
+#     print(item) #simple loop
+
+# for i ,val in enumerate(num):
+#     print(i,val) # it will retun index + value
+
+
+#####   9  mathematical operations with numbers
+# num=[1,2,3,4,5]
+# a=sum(num)# 15​
+# b=max(num)# 5​
+# c=min(num)# 1​
+# d=len(num)# 5
+# print(d)
+
+
+
+###   10 copy and combine 
+
+# a = [1, 2]
+# b = [3, 4]
+# a + b
+# # concatenate -> [1,2,3,4]​
+# a * 2
+# # repeat -> [1,2,1,2]
+# copy = a.copy() # shallow copy​​
+
+# # For deep copying nested lists:​
+# import copy
+# deep = copy.deepcopy(nested_list)
+
+
+###  11 list comprehensions
+# x=2
+# squares= [x**2 for i in range(5)]
+# print(squares)
+
