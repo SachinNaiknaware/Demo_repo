@@ -306,3 +306,20 @@
 # squares= [x**2 for i in range(5)]
 # print(squares)
 
+
+# k=[1,23,4,4,5]
+# p="hello sachin"
+# print(sum(k))   
+# print(max(k))
+
+
+# p='heank akdjs ldnfdkljd'
+# print(p.split(","))
+
+a= 10
+b= 2
+print(a / b ) #division
+print(a % b)  #modules  returns the reminder of division
+print(a ** b) #exponentiation  raises a number  to a power
+print(a // b) #floor division returns the integer part of division
+
