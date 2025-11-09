@@ -45,7 +45,7 @@
 #  >=  Greater than or equal to
 #  <= Less than or equal to
 
-#  Evry time return tru or false
+#  Evry time return true or false
 
 # Logical Operators
 # Logical operators are used to combine conditional statements
@@ -109,9 +109,9 @@
 
 
 ##floor division
-# a=9
-# b=-2
-# print(a//b)
+# a=10
+# b=2
+# print(a/b)
 
 # a=10
 # b=3
@@ -303,4 +303,30 @@
 
 #in python bitwise operators used to perform operation on at the bit level
 #this operation work with the individual bits of integer
+
+
+
+# division
+# print(12/3) #diveds two number and return a flaot
+
+#moduls 
+#modules return the reminder after division
+
+# print(3%9)
+# print(10%20)
+#print(10%2)
+# it will print reminder
+
+#exponentiation **
+#raises a number to the power of another
+# print(2 ** 5)
+#print(2*2*2*2*2)
+#2 ला चार वेळा स्वतःशी गुणणे — 2 × 2 × 2 × 2 = 16
+
+#floor division 
+#divides and return the largest integer hass less than or equal to the result 
+# print(12//5)
+#12 ला 5 ने भागून पूर्णांक उत्तर काय येईल Floor division म्हणजे भागाकाराचे पूर्णांक उत्तर — दशांश (decimal) भाग काढून टाकतो.
+
+
 
