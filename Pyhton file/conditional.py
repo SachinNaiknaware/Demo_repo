@@ -320,3 +320,44 @@
 # print(a)
 
 
+# in python conditional statements म्हणजे प्रोग्राममध्ये निर्णय घेण्याची क्षमता — एखादी अट खरी आहे की खोटी, त्यावरून पुढचा कोड चालवला जातो.
+
+# if statement वापर: एखादी अट खरी असेल तरच कोड चालवतो.
+
+# if 10 == 10:
+#     print("Equal")
+
+#else statement वापर: if अट खोटी असेल तर else चा कोड चालतो.
+
+# if 10 == 20:
+#     print("Equal")
+# else:
+#     print("Not equal")
+
+#elif statement :
+#वापर: एकापेक्षा जास्त अटी तपासण्यासाठी.
+# marks = 75
+# if marks >=90:
+#     print('Grade A')
+# elif marks >= 70:
+#     print("Grade B")
+# else:
+#     print("Grade C")
+    
+#Python is case sensitive language
+
+
+#ternary expression वापर: छोट्या अटींसाठी एकाच ओळीत निर्णय घेणे.
+ 
+# syntax :-- value_if_true if condition else value_is_false
+# age =20
+# status="Adult" if age >= 20 else "Minor"
+# print(status)
+
+
+# वापर कधी करायचा?
+# प्रकार            	     वापर
+# If	                 एकच अट तपासायची असेल
+# If-Else	             अट खरी की खोटी यावर दोन पर्याय असतील
+# If-Elif-Else	     अनेक अटी तपासायच्या असतील
+# Ternary Expression	 छोट्या निर्णयांसाठी एकच ओळीत

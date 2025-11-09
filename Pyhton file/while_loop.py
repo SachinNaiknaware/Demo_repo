@@ -81,3 +81,88 @@
 #     count +=1 
 
 #series based question
+
+
+#while loop := while loop एखादी अट खरी असेपर्यंत कोड पुन्हा पुन्हा चालवतो.
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
+
+# उद्दिष्ट: अटींवर आधारित निर्णय घेऊन लूप चालवणे.
+# उदाहरण: एखाद्या संख्येचा गुणाकार, सरासरी, किंवा विशिष्ट पॅटर्न तयार करणे.
+
+# n=5
+# fact=1
+# while n>0:
+#     fact*=n 
+#     n-=1
+# print(fact)
+
+
+##series based q
+# i=1
+# while i <=10:
+#     print(i,end= "")
+#     i+=1
+
+# i=1
+# while i <=10:
+#     print(i)
+#     i+=1
+
+
+#break statment  वापर: लूप मधून बाहेर पडण्यासाठी.
+# i=1
+# while i <=10:
+#      if i == 5:
+#          break
+#      print(i)
+#      i+=1
+
+#continue statment वापर: काही अटींवर iteration skip करणे.
+# i=0
+# while i <= 5:
+#     i+=1    
+#     if i == 3:
+#         continue
+#     print(i)
+
+
+#nested while loop वापर: लूपच्या आत दुसरा लूप.
+
+# i = 1
+# while i<=4:
+#     j=1
+#     while j<=2:
+#         print(f"i={i},j={j}")
+#         j+=1
+#     i+=1
+
+
+#pattern based questions
+# i=1
+# while i<=5:
+#     print("**" * i)
+#     i+=1
+
+# k=10
+# for i in range(k):
+#     print("*"* i)
+
+# pass statement वापर: काहीही न करायचं असेल तरी syntax पूर्ण ठेवण्यासाठी.
+
+# i=0
+# while 1 <=10:
+#     pass
+
+# loop else block  वापर: लूप पूर्ण झाल्यावर else चालतो (break न झाल्यास).
+
+# i=1
+# while i <=10:
+#     print(i)
+#     i+=1
+# else:
+#     print('End the loop')
+

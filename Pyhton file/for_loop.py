@@ -41,6 +41,48 @@
 # for i in range (2,10):
 #     print(i)
 
-for i in range (2,20000,5):
-    print(i)
 
+
+### it will print group of elment one by one
+# for u in range(1,10):
+#     print(u)
+
+#range function 
+#it crat a serij
+#range(start, stop ,step)
+# for i in range(1,10,2):
+#     print(i)
+
+
+#nested for loop  inside loop another loop  वापर: pattern printing, matrix traversal, आणि complex logic साठी.
+
+
+# for i in range(1,2):
+#     for j in range(1,3):
+#         print(f"i={i},j={j}")
+
+
+# Pattern-Based Questions (पॅटर्न आधारित प्रश्न)
+
+#star pattern
+# for i in range(1,10):
+#     print("*" * i)
+
+#reverse pattern
+# for i in range(10,0,-1):
+#     print("*" * i)
+
+
+#break statement # used for out the loop वापर: लूप मधून बाहेर पडण्यासाठी.
+
+# for i in range(1,20):
+#     if i == 10:
+#         break
+#     print(i)
+
+#continue statement  वापर: एखादी iteration skip करण्यासाठी.
+
+# for i in range(1,10):
+#     if i == 1:
+#         continue
+#     print(i)

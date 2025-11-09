@@ -323,3 +323,65 @@
 # print(a ** b) #exponentiation  raises a number  to a power
 # print(a // b) #floor division returns the integer part of division
 
+
+
+#list operations
+
+# ऑपरेशन	          उदाहरण	         अर्थ
+# Indexing	    my_list[0]	       पहिला घटक
+# NegativeIndex   my_list[-1]	       शेवटचा घटक
+# Length	        len(my_list)	   यादीतील एकूण घटक
+# Concatenation	[1, 2] + [3, 4]	   यादी जोडणे
+# Repetition	    [1] * 3 → [1, 1, 1]	पुनरावृत्ती
+
+# o=[1,2,3,4,5,6,7,8,9,10]
+# k=[11,12,13,14,15,16,17,18,19,20]
+# print(o[1])
+# print(o[-1])
+# print(len(o))
+# print([o] +[k])
+# print(o * 3)
+
+
+#list comprehensions /slicing
+
+#slcing 
+# nums=[10,20,30,40,50,60]
+# print(nums[0:2])
+#list comprehensions 
+# squares = [i ** 2 for i in range(1,10)] mean varg 
+# print(squares)
+
+
+#list methods 
+
+# Method	वापर	                  उदाहरण
+# append()	शेवटी घटक घालतो	            my_list.append(50)
+# insert()	दिलेल्या index ला घटक घालतो	  my_list.insert(1, 15)
+# remove()	दिलेला घटक काढतो	        my_list.remove(20)
+# pop()	    शेवटचा घटक काढतो	        my_list.pop()
+# sort()	यादी sort करतो	           my_list.sort()
+# reverse()	उलटी यादी	               my_list.reverse()
+# clear()	यादी रिकामी करतो	         my_list.clear()
+
+l1=[1,2,3,4,5,6,7,8,11]
+l1.append(9)  # append means remove element from last
+print(l1)
+
+l1.insert(10,10) #दिलेल्या index ला घटक घालतो
+print(l1)
+
+l1.remove(1) # remove 1 form list
+print(l1)
+
+l1.pop()   #pop
+print(l1)
+
+l1.sort()  #sort
+print(l1)
+
+l1.reverse() #reverse
+print(l1)
+
+l1.clear()
+print(l1) # clear it will empty the list
