@@ -86,3 +86,14 @@
 #     if i == 1:
 #         continue
 #     print(i)
+
+#pass statement  is used pass म्हणजे placeholder — जिथे syntax पूर्ण ठेवायचा असतो पण कोड अजून लिहायचा असतो.
+# it used for temprary empty that place
+
+
+#else it will print for किंवा while loop पूर्णपणे चालून संपला (म्हणजे break न झाल्यास), तर else चालतो.
+# for i in range(1,10):
+#     print(i)
+# else:
+#     print("End the loop")
+

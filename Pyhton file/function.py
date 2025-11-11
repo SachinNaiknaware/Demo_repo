@@ -197,4 +197,70 @@
 #         print(name,value)
 # print(func(value1=1,value2=2,values3=3))
 
+
     
+
+##funtion used for reapitative work means म्हणजे कोडचा पुन्हा वापर करता येणारा ब्लॉक.
+
+# def my_fun():
+#     print("Hello Sachin ")
+    
+# print(my_fun())
+
+# def greet(name):
+#     print("Hellow",name)
+#     return
+# print(greet("Sachin"))
+
+
+#function need to call  like above example greet("SACHIN")
+
+
+## there is three type of argument 
+
+#functional argument
+#positional argument
+#keyword arguments 
+
+# def add(a,b):
+#     return a+b
+# print(add(5,6)) # this is positional argument
+# print(add(a=5,b=6)) # this is keyword 
+
+
+#default if you didnt mentioned argument means
+# default argument used
+
+# def greet(name="Sachin"):
+#     return name
+    
+# print(greet())
+
+
+#Docstrings 
+# def s():
+#     return '''  Hii i am sachin naiknaware'''
+# print(s())
+
+
+# Scope (व्हेरिएबलची मर्यादा)
+# Local Scope: फक्त फंक्शनमध्येच उपलब्ध
+# Global Scope: संपूर्ण प्रोग्राममध्ये उपलब्ध
+
+# in side fucntrion or outside function we created on scope when we call inside fucntion only inside local scope only run
+# x=10 #Global
+# def show():
+#     x=5 #local
+#     return x
+# print(show())
+
+# Functional Programming & Reference Functions
+# Functional programming म्हणजे functions वर आधारित कोडिंग.
+# Reference functions म्हणजे फंक्शनला दुसऱ्या फंक्शनमध्ये इनपुट म्हणून वापरणे.
+
+# def short(text):
+#     return text.upper()
+# def greet(func):
+#     massage = func("hello")
+#     return massage
+# print(greet(short))
