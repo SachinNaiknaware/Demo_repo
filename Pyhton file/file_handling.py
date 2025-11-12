@@ -16,6 +16,10 @@
 
 
 
+
+
+
+
 # Mode	Description
 # 'r'	    Read-only (default)
 # 'w'	    Write (overwrites)
@@ -65,5 +69,45 @@
 # import pandas as pd
 # df = pd.read_excel("data.xlsx")
 # print(df.head())
+#--------------------------------------------------------------------------------------------
+# file handling
+#प्रोग्राममधून थेट फाइल्स वाचणे, लिहिणे आणि बदलणे.
+#in program reading file,write file and chagne file
+#Python मध्ये फाइल्ससोबत काम करण्यासाठी open() फंक्शन वापरतो.
+# "r" → read (वाचण्यासाठी)
 
+# "w" → write (नवीन लिहिण्यासाठी, जुनी फाइल overwrite होते)
+
+# "a" → append (जुनी फाइलमध्ये शेवटी नवीन मजकूर घालतो)
+
+# "b" → binary mode (images, pdf इत्यादीसाठी)
+
+# f= open("new.txt",'w')
+
+# reading a file
+# f = open("new.txt", "r")
+# print(f.read())       # संपूर्ण फाइल वाचतो
+# print(f.readline())   # एक ओळ वाचतो
+# print(f.readlines())  # सर्व ओळी list मध्ये वाचतो
+# f.close()
+
+
+# f = open("new.txt", "w")
+# f.write("Hello Sachin!\n")
+# f.write("Python File Handling शिकत आहे.")
+# f.close()
+
+
+# write and apend to change file
+# f = open("next.txt", "a")
+# f.write("\nनवीन ओळ जोडली गेली.")
+# f.close()
+
+
+# With Statements (फाइल सुरक्षितपणे हाताळणे)
+# with वापरल्यास फाइल आपोआप बंद होते
+
+# with open("new.txt", "r") as f:
+#     data = f.read()
+#     print(data)
 

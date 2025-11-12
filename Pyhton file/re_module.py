@@ -7,12 +7,12 @@
 #validating formats based on email, phone numbers
 
 
-import re
+#import re
 
 
 ###1️⃣ Remove Digits
-import re
-name = 'My name is Sachin 57'
+#import re
+#name = 'My name is Sachin 57'
 # digitcount = re.sub("[0-29]", "", name)
 # print(len(digitcount))
 
