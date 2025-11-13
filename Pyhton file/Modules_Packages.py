@@ -37,3 +37,14 @@
 
 # ही फाइल Python ला सांगते की हा फोल्डर एक “package” आहे.
 
+
+# OS Module
+# Operating system सोबत काम करण्यासाठी.
+
+# python
+
+import os
+# print(os.getcwd()) #current directory
+#print(os.listdir()) #file list
+
+
