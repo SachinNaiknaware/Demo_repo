@@ -4,19 +4,34 @@
 # integer = 10
 # print(decimal.Decimal(integer))              # Output: 10
 # print(type(decimal.Decimal(integer)))        # Output: <class 'decimal.Decimal'>
+# import decimal
+# i=10
+# print(decimal.Decimal(i))
+# print(type(decimal.Decimal(i)))
 
 
 ##2 Convertin an string of ingegers into Decimals
+# import decimal
+# string='12345'
+# print(decimal.Decimal(string))
+# print(type(decimal.Decimal(string)))
+
+
 
 # import decimal
 # string='12345'
 # print(decimal.Decimal(string))
 # print(type(decimal.Decimal(string)))
 
+
 ##3. reverting a string using an extended slicing technnique
 
 # string= "Python Programming"
 # print(string[::-1])
+
+# string="Sachin Naiknaware"
+# print(string[::-1])
+
 
 # ##4 Counting vowels in given list
 # vowel=['a','e','i','o','u']
@@ -34,6 +49,13 @@
 #     if i in vowel:
 #         c+=1
 # print(c)
+# enput=input("Enter a value:-")
+# o=['a','e','i','o','u']
+# c=0
+# for i in enput:
+#     if i in o:
+#         c+=1
+# print(c)
 
 
 ##5.  Counting CONSONANTS
@@ -46,7 +68,13 @@
 #     else:
 #         pass
 # print(count)
-
+# inpt=input("Enter a Input :--")
+# not_counsonant=['a','e','i','o','u']
+# new_data=0
+# for i in inpt:
+#     if i not in not_counsonant:
+#         new_data+=1
+# print(new_data)
 
 # vowel=['a','e','i','o','u']
 # input_1='lsdofiuhb'
@@ -70,6 +98,19 @@
 #         pass
 # print(count)
 
+# word=['s']
+# c=0
+# name=input("Enter a name :-")
+# for i in name.lower():
+#     if i in word:
+#         c+=1
+#     else:
+#         pass
+# print(c)
+# checking how many time s charector comming in your input value
+
+
+
 ##7. Writing FIBONACCI Series
 # fib=[0,1]
 # n=10
@@ -78,6 +119,14 @@
     
 # print(fib)
 # print(','.join(str(e) for e in fib))
+
+
+# fib=[0,1]
+# n=10
+# for i in range(n):
+#     fib.append(fib[-1] + fib[-2])
+# print(fib)
+ 
 
 # fib=[0,1]
 # n=20
@@ -92,7 +141,7 @@
 # print(fib)
 
 
-##8 Finding the Maxomum Numnber in a lis
+##8 Finding the Maxomum Numnber in a list
 # num1=[32,43,34,3,32,45,5,2,23,32,453]
 # ma=num1[0]
 # for i in num1:
@@ -102,11 +151,14 @@
 # import statistics
 # nn=statistics.
 # print(nn)
+# num=[1,2,3,4,56,145,6257,68]
+# print(max(num))
 
 
 ##9 Finding the minimam Number in a List
 
 # number_list=[22,2,4,32,67,144,15,15]
+# print(min(number_list))
 # min=number_list[0]
 # for i in number_list:
 #     if i > min:
@@ -121,11 +173,16 @@
 # middle_list=int((len(numlist)/2))
 # print(numlist[middle_list])
 
+# num=[22,2,4,32,67,144,15,15]
+# middle= int((len(num)/2))
+# print(middle)
 # num=[12,23,3,34,5,25,6]
 # mid=int((len(num)/2))
 # print(num[mid])
 
 ##11 Converting a list into a string
+# ls=['s','a','c','h','i','n']
+# print("".join(map(str,ls)))
 
 # ls=['P','y','t','h','o','n',20]
 # string="".join(map(str,ls))
@@ -184,6 +241,8 @@
 # str1="P S S S S"
 # print(str1.count(""))
 
+# p=' p p p p p'
+# print(p.count(""))
 
 ##16. Counting Digitd,Letters, and Spaces in string
 # import re
