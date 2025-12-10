@@ -319,7 +319,18 @@
 #             print("*",end="")
 #         print("")
 # Pyramid(5)
-
+# def pyramid(n):
+#     for i in range(n):
+#         for j in range(i,n):
+#             print("",end="")
+#         for j in range(i+1):
+#             print("*",end="")
+#         for j in range(i):
+#             print("*",end=(""))
+#         print("*")
+# pyramid(5)
+    
+    
 # for i in range(10):
 #     print("*",end="")
 #     for j in range(i, 10):
@@ -366,13 +377,28 @@
 #         if n % i == 0:
 #             return False  # divisible by i → not prime
 #     return True  # no divisors found → prime
+# def prime_no(n):
+#     if n < 2:
+#         return False
+#     for i in range(2,int(n ** 0.5) + 1):
+#         if n % i == 0:
+#             return False
+#     return True
+# print(prime_no(2))   # True
+# print(prime_no(3))   # True
+# print(prime_no(4))   # False
+# print(prime_no(29))  # True
+# print(prime_no(10))  # False
 
-# # Input and result
 # num = int(input("Enter a number :- "))
 # if prime_no(num):
 #     print(f"{num} is a prime number.")
 # else:
 #     print(f"{num} is not a prime number.")
+
+# while True:
+#     print("Helloe")
+
 
 
 ##22 Implementing varivle lengh arguments in Python
@@ -382,8 +408,15 @@
 # result1 = average(32,5,4,4,35,6,63,5)
 # print(result1)
 
-# def avg(*k): #(*k) this collect all the argument into tuple
-#      avg_all=sum(k)/len(k)
+
+# Program for find avg from give value
+# def find(*num):
+#     return sum(num) / len(num)
+# print(find(10,20,20349,2039040,21034,10,1203))
+
+# def avg(*k):
+#     #(*k) this collect all the argument into tuple
+#     avg_all=sum(k)/len(k)
 #     return avg_all
 # new=avg(10,10,10)
 # print(new)
