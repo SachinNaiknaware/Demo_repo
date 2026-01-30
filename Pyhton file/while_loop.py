@@ -166,3 +166,35 @@
 # else:
 #     print('End the loop')
 
+
+# Merge two lists without duplicates
+# a = [1,2,3]
+# b = [3,4,5]
+# print(list(set(a+b)))
+
+
+# Count frequency of characters
+# a='sachinnaiknaware'
+# freq={}
+# for ch in a:
+#     freq[ch] = freq.get(ch, 0) +1
+# print(freq)
+
+#Reverse words in a string
+
+# test = 'python test engineer'
+# print("".join(test.split()[::-1]))
+
+#find largest number in list
+# largest= [2,3,4,34,2,45,243,5,24,4]
+# print(max(largest))
+# print(min(largest))
+
+#  Lambda to square numbers
+# sq = lambda x : x ** x   
+# print(sq(10))  
+
+def polindrome(s):
+    return s == s[::-1]
+print(polindrome('madam'))
+        

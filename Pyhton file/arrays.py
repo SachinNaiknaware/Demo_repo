@@ -1,6 +1,3 @@
-### array 
-# array in python are not the arrays in conventional programming language like c and java  but closer to list.
-# a list can be a collection of either homogeneous or heterogeneous  elements 
 
 # Parameter    Details
 # b            Represents signed integer of size 1 byte
