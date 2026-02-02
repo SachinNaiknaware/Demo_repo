@@ -15,7 +15,14 @@
 #     else:
 #         print("Numebe is odd",i)     
         
-        
+# x=10
+# for i in range(x):
+#     if x % 2== 0:
+#         print("Even")
+#     else:
+#         print("odd")
+
+
 #3. check the aligibilty for castin a vote
 # std=int(input("Enter your age:-"))
 # if std >=18:

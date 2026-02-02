@@ -92,6 +92,16 @@
 # print(check_even_or_odd(10))        
 
 
+# for i in range(1,12):
+#     def jls_extract_def():
+#         return 2
+
+
+#     if i % jls_extract_def() == 0:
+#         print("ev ")
+#     else:
+#         print("Dfgjk")
+
 # def check_even_or_odd(number):
 #     if number % 2 == 0:
 #         return "Even"
@@ -122,7 +132,16 @@
 #         print(c)    
 # print(fibonacci(10))
 
-
+# def fibonacci(n):
+#     a=0
+#     b=1
+#     for i in range(1,n):
+#         c=a+b
+#         a=b
+#         b=c
+#         print(c)
+# print(fibonacci(10))    
+        
 # def fibonacci(n):
 #     a=0
 #     b=1
@@ -355,4 +374,10 @@
 # result = reduce(square,num)
 # print(result)
 
+
+
+# def sachin(*t):
+#     return sum(t)
+
+# print(sachin(10,5,5))
 

@@ -1,25 +1,25 @@
-# # # # # Python For Loops
-# # # # ## # # # # A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+# # # # Python For Loops
+# # # ## # # # # A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
-# # # # # # # # # # This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+# # # # # # # # # This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
 
-# # # # # # # # # # With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+# # # # # # # # # With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
 
-# # # # # # # # # fruits=["Mango","banan","chery","water milo","chicku"]
-# # # # # # # # # for i in fruits:
-# # # # # # # # #     print(i)
+# # # # # # # # fruits=["Mango","banan","chery","water milo","chicku"]
+# # # # # # # # for i in fruits:
+# # # # # # # #     print(i)
 
 
-# # # # # # # # Looping Through a String
-# # # # # # # # Even strings are iterable objects, they contain a sequence of characters:
+# # # # # # # Looping Through a String
+# # # # # # # Even strings are iterable objects, they contain a sequence of characters:
 
-# # # # # # # for i in 'SACHIN':
-# # # # # # #     print(i)
-# fruits=["Mango","banan","chery","water milo","chicku"]
-# # # # # # for i in fruits:
+# # # # # # for i in 'SACHIN':
 # # # # # #     print(i)
-# # # # # #     if i =="chery":
-# # # # # #         break
+fruits=["Mango","banan","chery","water milo","chicku"]
+# # # # # for i in fruits:
+# # # # #     print(i)
+# # # # #     if i =="chery":
+# # # # #         break
 
 # # # # # The continue Statement
 # # # # # With the continue statement we can stop the current iteration of the loop, and continue with the next:
