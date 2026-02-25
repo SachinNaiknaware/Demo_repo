@@ -12,3 +12,12 @@
 # NOT	       ~	Inverts all bits (1 becomes 0, 0 becomes 1)	~1101 = 0010 (in 4-bit)
 # Left Shift   <<	Shifts bits to the left, adds 0s on the right	0010 << 1 = 0100
 # Right Shift  >>	Shifts bits to the right, discards rightmost bits	0100 >> 1 = 0010
+
+def two_sum(nums, target):
+    seen = {}
+    for i, num in enumerate(nums):
+        complement = target - num
+        if complement in seen:
+            return [seen[complement], i]
+        seen[num] = i
+    return []

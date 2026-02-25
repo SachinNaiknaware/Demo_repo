@@ -1,19 +1,19 @@
-# # # # # # # # Python Loops
-# # # # # # # # Python has two primitive loop commands:
+# # Python Loops
+# # Python has two primitive loop commands:
 
-# # # # # # # # while loops
-# # # # # # # # for loops
+# # while loops
+# # for loops
 
-# # # # # # # The while Loop
-# # # # # # # With the while loop we can execute a set of statements as long as a condition is true.
+# The while Loop
+# With the while loop we can execute a set of statements as long as a condition is true.
 
-# # # # # # i=2
-# # # # # # while i<6:
-# # # # # #     print(i)
-# # # # # #     i+=1
+# # i=2
+# # while i<6:
+# #     print(i)
+# #     i+=1
 
-# # # # # The break Statement
-# # # # # With the break statement we can stop the loop even if the while condition is true:
+# The break Statement
+# With the break statement we can stop the loop even if the while condition is true:
 
 # # # # i=1
 # # # # while i<10:
@@ -194,7 +194,23 @@
 # sq = lambda x : x ** x   
 # print(sq(10))  
 
-def polindrome(s):
-    return s == s[::-1]
-print(polindrome('madam'))
+# def polindrome(s):
+#     return s == s[::-1]
+# print(polindrome('madam'))
         
+    
+# i=0
+
+# while i<1:
+#     print("sachin")
+#     i+=1
+
+# i=1
+# j=1
+# while i<10:
+#     print("SAchin")
+#     i+=1
+#     while j <4:
+#         print("auuuu")
+#         j=j+1
+#     i=i-1
