@@ -7,3 +7,16 @@
 
 #harmonic mean :- 
 #The harmonic mean is a type of average best used when dealing with rates, ratios, or speeds. It is calculated as the reciprocal of the arithmetic mean of the reciprocals of the data values.
+
+
+#normal function 
+# def numbers():
+#     return [1,2,3,4,5]
+# print(numbers())
+
+#generator
+
+def number():
+    for i in range(1,10):
+        yield i
+print(number())

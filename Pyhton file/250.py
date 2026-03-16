@@ -9,19 +9,29 @@
 # print(decimal.Decimal(i))
 # print(type(decimal.Decimal(i)))
 
+# import  decimal
+# integer=10
+# print(decimal.Decimal(integer))
+
+
 
 ##2 Convertin an string of ingegers into Decimals
+import decimal
+# string='12345'
+# print(decimal.Decimal(string))
+# print(type(decimal.Decimal(string)))
+
+# s='1234'
+# print(decimal.Decimal(s))
+
+
+
+
 # import decimal
 # string='12345'
 # print(decimal.Decimal(string))
 # print(type(decimal.Decimal(string)))
 
-
-
-# import decimal
-# string='12345'
-# print(decimal.Decimal(string))
-# print(type(decimal.Decimal(string)))
 
 
 ##3. reverting a string using an extended slicing technnique
@@ -31,6 +41,10 @@
 
 # string="Sachin Naiknaware"
 # print(string[::-1])
+# s= "sachin is artificial intelegence"
+# print(s[::-1])
+
+
 
 
 # ##4 Counting vowels in given list
@@ -41,6 +55,16 @@
 #     if charecter in vowel:
 #         count+=1
 # print(count) 
+
+# vowel=['a','e','i','o','u']
+# character='qqwiou'
+# count=0
+# for i in character:
+#     if i in vowel:
+#         count+=1
+# print(count)
+
+
 
 # ii=input('enter :: --')
 # vowel=['a','e','i','o','u']
@@ -68,6 +92,36 @@
 #     else:
 #         pass
 # print(count)
+
+# vowel=['a','e','i','o','u']
+# count=0
+# word='qwer'
+# for i in word:
+#     if i not in vowel:
+#         count+=1
+# print(count)
+
+
+# vowel=['a','e','i','o','u']
+# count=0
+# word='qwe'
+# for i in word:
+#     if i not in vowel:
+#         count+=1
+# print(count)
+
+# for i in range(1,20):
+#     def jls_extract_def():
+#         return 0
+
+
+#     if i % 2 == jls_extract_def():
+#         print("even")
+#     else:
+#         print("odd")
+
+
+
 # inpt=input("Enter a Input :--")
 # not_counsonant=['a','e','i','o','u']
 # new_data=0
@@ -98,6 +152,18 @@
 #         pass
 # print(count)
 
+# name=input("Enter your charector :-")
+# count=0
+# for i in name.lower():
+#     if i in name:
+#         count+=1
+#     else:
+#         pass
+# print(count)
+
+
+
+
 # word=['s']
 # c=0
 # name=input("Enter a name :-")
@@ -119,6 +185,16 @@
     
 # print(fib)
 # print(','.join(str(e) for e in fib))
+
+# fib=[0,1]
+# n = 10
+
+# for i in range(n):
+    
+#     fib.append(fib[-1] + fib[-2])
+# print(fib)
+
+
 
 
 # fib=[0,1]
@@ -147,7 +223,22 @@
 # for i in num1:
 #     if i > ma:
 #         ma=i
-# print(ma)        
+# print(ma)  
+ 
+# num = [1, 2, 3, 424, 42, 4]
+# emty = num[0]
+
+# for i in num:
+#     if i > emty:
+#         emty = i# update emty with bigger number
+#         if i > 200:
+#             print("Ebove 200")
+#     else:
+#         pass
+
+# print("Maximum number is:", emty)
+
+     
 # import statistics
 # nn=statistics.
 # print(nn)
@@ -173,6 +264,15 @@
 # middle_list=int((len(numlist)/2))
 # print(numlist[middle_list])
 
+# num_list=[10,23,3,4,5,5,6]
+# middle=int((len(num_list)/2))
+# print(num_list[middle])
+
+
+# s='sachin'
+# print(s[::-1])
+
+
 # num=[22,2,4,32,67,144,15,15]
 # middle= int((len(num)/2))
 # print(middle)
@@ -183,6 +283,14 @@
 ##11 Converting a list into a string
 # ls=['s','a','c','h','i','n']
 # print("".join(map(str,ls)))
+
+# ls=['p','y','t','h','o','n',1]
+# print("".join(map(str,ls)))
+
+# l=['m','y']
+# print("".join(map(str,l)))
+
+
 
 # ls=['P','y','t','h','o','n',20]
 # string="".join(map(str,ls))
@@ -200,6 +308,8 @@
 # for i in range(0, len(l1)):
 #     new_list.append(l1[i] + l2[i])
 # print(new_list)
+
+
 
 
 # l3=[122,3,4,4,5]
@@ -221,6 +331,13 @@
 # else:
 #     print("False")
 
+# s1='nachis'
+# s2='sachin'
+# if sorted(s1.upper()) == sorted(s2.upper()):
+#     print("True")
+# else:
+#     print("false")
+
 # str1="sachin"
 # str2="ahcins"
 # str1=str1.replace("","").upper()
@@ -237,9 +354,23 @@
 # else:
 #     print("False")
 
+# s="kayak".lower()
+# if s == s[::-1]:
+#     print("true")
+# else:
+#     print("false")
+
+
+
+
+
 ##15 Coutning white space in a Strig
 # str1="P S S S S"
 # print(str1.count(""))
+
+# s=' '
+# print(s.count(""))
+
 
 # p=' p p p p p'
 # print(p.count(""))
@@ -764,3 +895,11 @@ lists compared to using tradaitional loops.
 # lst = ['alpha', 'bravo', 'charlie', 'delta', 'echo']
 # for i in lst:
 #     print(i[1:])
+
+
+
+# reverse string
+# def reverse(string):
+#     return  string[::-1]        
+# print(reverse("Hello world"))
+    

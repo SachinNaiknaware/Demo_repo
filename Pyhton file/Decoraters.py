@@ -65,3 +65,17 @@
 # nums = [1, 2, 3, 4]
 # product = reduce(lambda x, y: x * y, nums)
 # print(product)  # 24
+def decorator_function(func):
+
+    def wrapper():
+        print("Before function execution")
+        func()
+        print("After function execution")
+
+    return wrapper
+
+@decorator_function
+def say_hello():
+    print("Hello")
+
+say_hello()

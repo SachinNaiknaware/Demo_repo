@@ -571,3 +571,64 @@ import sys
 # print(sys.gettrace) # get the global debug tracing function
 # print(sys.argv)
 
+
+# import bisect
+
+# def maximum_total_profit(jobs):
+#     # Sort jobs by end time
+#     jobs.sort(key=lambda x: x[1])
+#     n = len(jobs)
+#     # Extract end times for binary search
+#     end_times = [job[1] for job in jobs]
+#     # DP array
+#     dp = [0] * (n + 1)
+#     for i in range(1, n + 1):
+#         start, end, profit = jobs[i-1]
+#         # Find last job that ends before start-1 (cooldown)
+#         idx = bisect.bisect_right(end_times, start - 1)  
+#         # Option 1: skip current job
+#         # Option 2: take current job + best profit until idx
+#         dp[i] = max(dp[i-1], profit + dp[idx])
+#     return dp[n]
+# # -------------------
+# # Test Cases
+# # -------------------
+# print("Test Case 1:", maximum_total_profit([
+#     (1, 2, 50),
+#     (3, 5, 20),
+#     (6, 19, 10),
+#     (2, 100, 200)
+# ]))  # Expected 200
+
+# print("Test Case 2:", maximum_total_profit([
+#     (1, 2, 20),
+#     (3, 4, 30),
+#     (5, 6, 25)
+# ]))  # Expected 75
+
+# print("Test Case 3:", maximum_total_profit([
+#     (1, 2, 10),
+#     (2, 3, 20),
+#     (3, 4, 30)
+# ]))  # Expected 40
+
+# print("Test Case 4:", maximum_total_profit([
+#     (1, 3, 50),
+#     (3, 5, 20),
+#     (4, 6, 70),
+#     (6, 7, 60),
+#     (8, 9, 30)
+# ]))  # Expected 150
+
+# print("Test Case 5:", maximum_total_profit([
+#     (5, 10, 99)
+# ]))  # Expected 99
+
+# print("Test Case 6:", maximum_total_profit([
+#     (1, 4, 70),
+#     (2, 3, 60),
+#     (4, 6, 70),
+#     (5, 8, 120),
+#     (7, 9, 60),
+#     (10, 11, 30)
+# ]))  # Expected 220

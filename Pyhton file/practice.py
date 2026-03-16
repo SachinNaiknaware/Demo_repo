@@ -25,3 +25,8 @@
 
 # Mark to find pass or fail
    
+@decorator_function
+def say_hello():
+    print("Hello")
+
+say_hello()

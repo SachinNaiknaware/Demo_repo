@@ -9,16 +9,16 @@
 
 #List items can be of any data type:
 # list1 = ["apple", "banana", "cherry"]
-# # list2 = [1, 5, 7, 9, 3]
-# # list3 = [True, False, False]
-# # print(list1)
-# # # print(list2)
-# # # print(list3)
-# # # print(type(list1))
+# list2 = [1, 5, 7, 9, 3]
+# list3 = [True, False, False]
+# print(list1)
+# print(list2)
+# print(list3)
+# print(type(list1))
 
-# # # The list() Constructor
-# # thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
-# # print(thislist)# possible to use the list() constructor when creating a new list.
+# The list() Constructor
+#thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+# print(thislist)# possible to use the list() constructor when creating a new list.
 
 # Python Collections (Arrays)
 # There are four collection data types in the Python programming language:
@@ -32,7 +32,7 @@
 # List items are indexed and you can access them by referring to the index number:
 # thislist = ["apple", "banana", "cherry"]
 # print(thislist[0])
-
+#kjb
 
 
 #list1=[]
